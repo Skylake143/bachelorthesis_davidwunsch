@@ -31,8 +31,6 @@ from ada_verona.database.dataset.pytorch_experiment_dataset import PytorchExperi
 from ada_verona.database.experiment_repository import ExperimentRepository
 from ada_verona.dataset_sampler.dataset_sampler import DatasetSampler
 from ada_verona.dataset_sampler.predictions_based_sampler import PredictionsBasedSampler
-from autoverify.verifier import AbCrown, Nnenum
-from ada_verona.verification_module.auto_verify_module import AutoVerifyModule
 from ada_verona.epsilon_value_estimator.binary_search_epsilon_value_estimator import (
     BinarySearchEpsilonValueEstimator,
 )

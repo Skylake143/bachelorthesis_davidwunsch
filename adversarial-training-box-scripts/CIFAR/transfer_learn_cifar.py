@@ -111,7 +111,7 @@ if __name__ == "__main__":
         scheduler_gamma=0.2,
         patience_epochs=6,
         overhead_delta=0.0,
-        batch_size=128) # TODO
+        batch_size=256)
     
     source_model_path = Path(args.source_model_path)
     experiment_name = args.experiment_name
